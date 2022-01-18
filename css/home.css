@@ -1,0 +1,454 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    font-family: 'Noto Sans TC',sans-serif,serif !important;
+    background-image: url('../pic/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    margin: auto;
+
+}
+
+header{
+    width: 100%;
+    text-align: center;
+    margin-top: 150px;
+    
+}
+
+
+.logo img{
+    width: 200px;
+}
+
+article{
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    
+}
+
+
+#menu-check{
+    display: none;
+}
+.main-nav a{
+    padding: 25px;
+    margin-inline: 25px;
+    color: rgb(114, 38, 8);
+    font-size: 22px;
+    font-weight:500;
+    text-decoration: none;
+
+}
+
+.main-nav img{
+    display: none;
+
+}
+
+.slideshow{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+    z-index: 1;
+
+}
+
+.introduce-font{
+    font-size:24px;
+    line-height: 1.7;
+    margin-top: 25px;
+    letter-spacing:3px;　
+}
+
+.mainpage-title{
+    letter-spacing: 5px;　
+}
+/* 主標 */
+.subtitle{
+    font-size:20px;
+    letter-spacing:3px;
+    font-weight:400;　
+}
+
+.owl-carousel{
+    z-index: -1;
+}
+
+.frist-title{
+    font-size:28px;
+    font-weight:500;
+    letter-spacing:5px;　
+}
+
+.introduce{
+    text-align: center;
+    margin: auto;
+    margin-top: 120px;
+}
+.introduce-font{
+    background-image:url('../pic/introduce-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    margin-top: 20px;
+    width: 55%;
+    padding:110px;
+
+}
+
+.mainpage-title{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+   
+    
+}
+
+.festival-limited{
+    padding: 80px;
+    width: 60%;
+    margin: auto;
+}
+
+.festival-limited img{
+    width: 400px;
+    
+}
+
+
+
+.festival-limited-txt{
+    text-align: center;
+}
+
+
+
+.top-product img{
+    width: 300px;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.hot-productpic{
+    margin-top: 60px;
+    padding: 30px;
+    background-position: center;
+    background-size: 0%;
+    background-repeat:no-repeat;
+    background-image:url('../pic/bg_flower.png');
+    transition: .5s ease-in-out;
+}
+
+.hot-productpic:hover{
+    background-position: center;
+    background-size: 100%;
+    background-repeat:no-repeat;
+    background-image:url('../pic/bg_flower.png');
+
+}
+
+.money{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight:500;
+    color: #AD0000;
+}
+
+.hot-product-col{
+    margin-top: 80px;
+
+}
+
+input{
+    margin-top: 15px;
+    width: 200px;
+    height: 40px;
+    border: none;
+    color: azure;
+    background-color: rgba(235, 45, 83, 0.9);
+    font-size: 18px;
+}
+
+input:hover{
+    background-color:rgba(204, 24, 60, 0.9);
+}
+
+
+p{
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+
+
+.hot-productpic img{
+    width: 100%;
+    display: block;
+    margin: auto;
+    border-radius: 5%;
+    
+}
+
+.hot-product-txt p,.hot-product-txt .btn{
+    text-align: center;
+}
+.hot-product-txt .btn{
+    margin: auto;
+}
+
+/* 抽籤 */
+
+.draw-lot-title{
+    margin-top: 90px;
+}
+.draw-lots{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 80%; 
+    margin: auto;
+    margin-top: 60px;   
+}
+#sec1, #sec2, #sec3 {
+    /* float: left; */
+    width: 30%;
+}
+#sec2{
+    width: 40%;
+}
+
+#sec2 img {
+    width: 65%;
+    display: block;
+    margin: auto;
+}
+  
+
+#sec1 , #sec3{
+    text-align: center;
+}
+
+#name{
+    color: brown;
+    letter-spacing: 3px;　
+}
+
+h1{
+    color: #BF2132;
+    letter-spacing: 3px;　
+}
+
+
+
+
+
+
+
+/* 頁尾 */
+.footer_logo img{
+    width: 130px;
+}
+
+footer{
+    background-color: rgba(236, 69, 102, 0.4);
+}
+
+.footer_flex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+    margin-top: 100px;
+    
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:#ffffff;
+    letter-spacing: 3px;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight:300;
+
+}
+
+
+.copy{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    height: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*手機專用*/
+@media screen and (max-width: 767px){
+    .hb{
+        width: 40px;
+        height: 40px;
+        background-color: rgb(248, 183, 183);
+        position: relative;
+        display: block;
+        margin-left: auto;
+        
+    }
+    
+    .hb:before,
+    .hb:after{
+        content: '';
+        position: absolute;
+        width: 80%;
+        height: 4px;
+        background-color: #fff;
+        right: 0;
+        left: 0;
+        margin: auto;
+        transform: rotate(0deg);
+    }
+    .hb:before{
+        top: 5px;
+        box-shadow: 0px 13px 0px rgb(255, 255, 255);
+        transition: box-shadow .2s .5s,
+                    top        .2s .2s,
+                    transform  .2s 0s;
+    }
+    .hb:after{
+        bottom: 5px;
+        transition: bottom     .2s .2s,
+                    transform  .2s 0s;
+    }
+    #menu-check:checked ~ article .hb:before{
+        top: 18px;
+        box-shadow: 0px 13px 0px #ff00;
+        transform: rotate(45deg);
+        transition: box-shadow .2s 0s,
+                    top        .2s .2s,
+                    transform  .2s .5s;
+    }
+    #menu-check:checked ~ article .hb:after{
+        bottom: 18px;
+        transform: rotate(-45deg);
+        transition: bottom     .2s .2s,
+                    transform  .2s .5s;
+    }
+    .main-nav{
+        position: absolute;
+        width: 90%;
+        top: 0;
+        left: -90%;
+        opacity: 0;
+        background-color: rgb(243, 170, 170);
+        transition: opacity 1s, left 0s .9s;
+    }
+
+
+    #menu-check:checked ~ article .main-nav{
+        left: 0;
+        opacity: 1;
+        transition: 1s;
+    }
+    .main-nav a{
+        display: block;
+
+    }
+    
+    .main-nav img{
+        width: 80px;
+        display: inline-block;
+        margin-top: 20px;
+    
+    }
+
+    .slideshow{
+        width: 100%;
+    }
+
+    .festival-limited img{
+        width: 100%;
+    }
+
+    .introduce-font{
+        font-size:20px;    
+    }
+    
+    .hot-productpic img{
+        width: 50%;
+        
+    }
+
+    .hot-product-col{
+        margin-top: 10px;
+    
+    }
+
+    .introduce-font{
+        width: 50%;
+    }
+    /* .draw-lots{
+        flex-direction: column;
+    } */
+    #sec1 {
+        /* float: left; */
+        width: 100%;
+    }
+    #sec2, #sec3{
+        margin-top: 50px;
+        width: 50%;
+    }
+
+    
+
+
+
+
+
+
+
+
+}
+
+/*平版*/
+@media screen and (min-width: 768px){
+    .hb{
+        display: none;
+    }
+    .main-nav a{
+        display: inline-block;
+    }
+
+}
+
+

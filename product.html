@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>香覓XiangMi｜專屬於你的中式香水</title>
+	<!--logo icon-->
+	<link rel="shortcut icon" href="pic/xiang_logo.png" type="image/png">
+	<!--keyword-->
+	<meta name="keyword" content="中式香水,香水,香調,十二月花神,花神,二十四節氣,節氣,送禮">
+	<!--css-->
+	<link rel="stylesheet" href="css/product.css">
+	<link rel="stylesheet" href="css/grid.css">
+	<!--js-->
+	<script src="js/home_js.js"></script>
+	<!--OwlCarousel-->
+	<link rel="stylesheet" href="OwlCarousel/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="OwlCarousel/assets/owl.theme.default.min.css">
+
+</head>
+<body>
+
+	<input type="checkbox" name="" id="menu-check">
+	<!--logo-->
+    <header class="main-header">
+		<a href="#" class="logo">
+			<h1><img src="pic/xiang_logo.png" alt="logo"></h1>
+		</a>
+	</header>
+
+	<!--導覽列 -->
+    <article>
+        <nav class="main-nav">
+			<img src="pic/xiang_logo.png" alt="XiangMi-logo" >
+			<a href="#">頭牌榜</a>
+			<a href="#">花露藏香閣</a>
+			<a href="#">送禮</a>
+			<a href="#">關於香覓</a>
+			<a href="#">聯絡我們</a>
+		</nav>
+
+		<!--漢堡-->
+		<label for="menu-check" class="hb"></label>
+    </article>
+
+    <!--商品分類-->
+    <div class="product-list">
+        <a href="#">佳節限定</a>
+        <a href="#">十二月花神</a>
+        <a href="#">二十四節氣</a>
+    </div>
+
+    <!--當月花神-->
+    <div class="this-month">
+            <div class="mainpage-title" >
+                <img src="pic/cloud_01.png" alt="" style="width: 100px;" >
+                <h1>當月花神</h1>
+                <img src="pic/cloud_02.png" alt="" style="width: 100px;" >
+            </div>
+    
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 col-md-6">
+                        <div class="pic">
+                            <img src="pic/festival-limited/product-box.png"
+                            onmouseover="this.src='pic/festival-limited/product-group-no-bg.png'"
+                            onmouseout="this.src='pic/festival-limited/product-box.png'">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-6">
+                        <div class="txt">
+                            <p class="frist-title">端午節</p>
+                            <p class="subtitle">
+                                屈原 六月
+                            </p>
+                            <p>
+                                以艾草作為主調，
+    
+                            </p>
+                            <input type="button"  value="加入購物車">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="OwlCarousel/owl.carousel.min.js"></script>
+	<script>
+		$(document).ready(function(){
+            $(".owl-carousel").owlCarousel({
+				animateOut:'fadeOut',
+				dots:true,
+				items:1,
+                loop:true,
+                margin:10,
+                autoplay:true,
+                autoplayTimeout:5000,
+                autoplayHoverPause:true
+	        });  
+        });
+	</script>
+</body>
+</html>
